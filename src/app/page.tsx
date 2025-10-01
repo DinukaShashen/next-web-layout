@@ -1,9 +1,13 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      test
+    <div className="p-6">
+      <h1 className="text-3xl font-bold">
+        Welcome to Hacktoberfest Next.js 🎉
+      </h1>
+      <p className="mt-4">This is the demo project</p>
+      <p className="mt-2 text-gray-600">
+        Explore the About, Contact, and Quotes pages using the navigation above.
+      </p>
     </div>
   );
 }
